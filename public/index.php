@@ -1,3 +1,3 @@
 <?php 
 
-echo "Hola Mundo";
+require_once __DIR__ . '/../includes/app.php';
