@@ -1,9 +1,9 @@
 <?php return array(
     'root' => array(
-        'name' => 'vicroria/bienesraices',
+        'name' => 'victoria/bienesraices',
         'pretty_version' => 'dev-main',
         'version' => 'dev-main',
-        'reference' => 'ae5fadf038dd8dcd53dbc3f745924072caca6a5a',
+        'reference' => '7b8cf3d334e00e51b3f4db9c0a538ed19fcdd40c',
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -67,10 +67,10 @@
             'aliases' => array(),
             'dev_requirement' => false,
         ),
-        'vicroria/bienesraices' => array(
+        'victoria/bienesraices' => array(
             'pretty_version' => 'dev-main',
             'version' => 'dev-main',
-            'reference' => 'ae5fadf038dd8dcd53dbc3f745924072caca6a5a',
+            'reference' => '7b8cf3d334e00e51b3f4db9c0a538ed19fcdd40c',
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
