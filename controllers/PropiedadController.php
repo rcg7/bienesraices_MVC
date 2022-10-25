@@ -15,8 +15,13 @@ class PropiedadController {
             'resultado' => $resultado
         ]);
     }
-    public static function crear() {
-        echo "Crear Propiedad";
+    public static function crear(Router $router) {
+
+        $propiedad = new Propiedad;
+       
+        $router->render('propiedades/crear', [
+            'propiedad' => $propiedad
+        ]);
     }
     public static function actualizar() {
         echo "Actualizar Propiedad";
