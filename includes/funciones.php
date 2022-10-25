@@ -57,3 +57,15 @@ function mostrarNotificacion($codigo) {
     }
     return $mensaje;
 }
+
+function validarORedireccionar(string $url) {
+        // Validar la url por ID válido
+        $id = $_GET['id'];
+        $id = filter_var($id, FILTER_VALIDATE_INT);
+    
+        if(!$id) {
+            header("Location: ${url}");
+        }
+        
+        return $id;
+}
