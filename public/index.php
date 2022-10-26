@@ -6,6 +6,7 @@ use MVC\Router;
 
 use Controllers\PropiedadController;
 use Controllers\VendedorController;
+use Controllers\PaginasController;
 
 
 $router = new Router();
@@ -23,5 +24,7 @@ $router->post('/vendedores/crear', [VendedorController::class, 'crear']);
 $router->get('/vendedores/actualizar', [VendedorController::class, 'actualizar']);
 $router->post('/vendedores/actualizar', [VendedorController::class, 'actualizar']);
 $router->post('/vendedores/eliminar', [VendedorController::class, 'eliminar']);
+
+$router->get('/', [PaginasController::class, 'index']);
 
 $router->comprobarRutas();
